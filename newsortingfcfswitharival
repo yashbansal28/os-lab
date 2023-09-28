@@ -39,7 +39,7 @@ int main() {
     // Sort processes based on arrival times
     bubbleSort(n, bt, at);
 
-    temp[0] = 0;
+    temp[0] =at[0];
 
     printf("Process\tBurst Time\tArrival Time\tWaiting Time\tTurnaround Time\n");
 
